@@ -23,7 +23,7 @@ int main()
     b.AddFactoryMethod("customer", CreateCustomer);
     int option = 0;
 
-    while (option)
+    while (option != 3)
     {
         std::cout << "Welcome to Bank Management system! Choose an option: 1. Create new user ,2. Login ,3. Exit" << std::endl;
         std::cin >> option;
